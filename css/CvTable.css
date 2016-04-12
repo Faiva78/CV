@@ -1,0 +1,37 @@
+.CvTable2 {
+    //border: thin solid blue;
+    border-collapse: collapse;
+    width: auto;
+    //margin: 3px;
+    margin-top:  40px;
+}
+
+.CvTable {
+    //border: thin solid green;
+    border-collapse: collapse;
+    width: auto;
+   // margin: 5px;
+}
+
+
+.CvTable tr{
+    height: 60px;
+    border-bottom: thin solid grey;
+}
+
+.CvDesc a{
+    
+    font-style: oblique;
+}
+
+.CvData li  {
+   margin-top:   5px;
+   margin-bottom:    5px;
+}
+
+
+
+
+
+
+

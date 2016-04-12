@@ -1,0 +1,78 @@
+
+.MenuLeft{
+    //border:  thin dotted black;
+      float:  left;
+      width: 18%
+}
+
+
+.MenuLeft ul{
+    list-style: none;
+    margin: 0px;
+    padding:  0px;
+    background-color: #333333;
+    //position: fixed;
+    height: 100%;
+    overflow: auto;
+    
+}
+
+.MenuLeft li a{
+    display: block;
+    font-size: medium        ;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+.MenuLeft a:hover:not(.Active){
+    background-color: #999999
+}
+
+.MenuLeft .Activa{
+    background-color:#666666
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        33%;
+    left:       33%;
+    height:     33%;
+    width:      33%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('http://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}

@@ -1,0 +1,82 @@
+
+.LanguageImg{
+    width: 20px;
+    height: 20px
+    
+}
+
+
+.Title {
+    text-align: center;
+    //border:  thin dotted deeppink;
+    width:85%;
+    float: left;
+}       
+.Title img{
+     width: 50px; 
+     height: 50px; 
+}
+
+.Title a{
+    display: inline-block;
+}
+
+
+
+
+.Langs{
+   float:right;
+    display: inline-block;
+    //border: thin dotted blueviolet;
+    width: auto;  
+}
+
+.Langs ul{
+list-style-type:none
+}
+.Langs li {
+    padding: 0px;
+    margin: 8px;
+    
+}
+.Langs li a{
+    text-decoration: none;
+}
+
+#MenuDiv{
+    display: inline-block;
+    float: bottom;
+    width: 100%;
+    //border: thin dotted blue;
+}
+
+
+.TopMenu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding:  0px;
+    overflow: hidden;
+    background-color: #333333
+        
+        
+}
+.TopMenu li{
+    float:  left
+}
+.TopMenu li a{
+    display: block;
+    font-size:large;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.TopMenu a:hover:not(.Active){
+    background-color: #999999
+}
+
+.TopMenu .Active{
+    background-color:#666666
+}
